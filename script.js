@@ -1,4 +1,4 @@
-function startQuiz() {
+function startDream() {
     document.getElementById("menu").style.display = "none"; // hide menu
     document.getElementById("quiz").style.display = "block"; // show quiz
 }
@@ -10,7 +10,7 @@ async function submitQuiz() {
     let Q4 = document.getElementById("Q4").value.trim().toLowerCase();
     const Q5 = document.getElementById("Q5").value.trim();
 
-    if (Q4 !== "yes" && Q44 !== "no") {
+    if (Q4 !== "yes" && Q4 !== "no") {
         alert("Please answer Q4 with 'yes' or 'no'.");
         return;
     }
