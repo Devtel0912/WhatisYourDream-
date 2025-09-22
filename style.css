@@ -20,8 +20,8 @@ h1{
     background:rgb(16, 16, 77);
     border-radius: 10px;
 }
-
-.quiz-box {
+#----BOXColors----------------------------------------------------
+.box {
     background-color: white;      /* white background */
     padding: 20px;                /* space inside the box */
     border-radius: 15px;          /* rounded corners */
@@ -31,13 +31,13 @@ h1{
     text-align: left;             /* align text inside box */
 }
 
-.quiz-box label {
+.box label {
     font-weight: bold;
     margin-top: 10px;
     display: block;
 }
 
-.quiz-box input {
+.box input {
     width: 100%;
     margin: 5px 0 15px 0;
     padding: 8px;
@@ -45,7 +45,7 @@ h1{
     border: 1px solid #ccc;
 }
 
-.quiz-box button {
+.box button {
     width: 100%;
     padding: 10px;
     font-size: 16px;
@@ -56,7 +56,7 @@ h1{
     cursor: pointer;
 }
 
-.quiz-box button:hover {
+.box button:hover {
     background-color: #45a049;
 }
 
