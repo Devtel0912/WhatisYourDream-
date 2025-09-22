@@ -21,6 +21,46 @@ h1{
     border-radius: 10px;
 }
 
+.quiz-box {
+    background-color: white;      /* white background */
+    padding: 20px;                /* space inside the box */
+    border-radius: 15px;          /* rounded corners */
+    max-width: 500px;             /* limit width */
+    margin: 20px auto;            /* center horizontally */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);  /* soft shadow */
+    text-align: left;             /* align text inside box */
+}
+
+.quiz-box label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+.quiz-box input {
+    width: 100%;
+    margin: 5px 0 15px 0;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.quiz-box button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.quiz-box button:hover {
+    background-color: #45a049;
+}
+
+
 button {
     padding: 10px 20px;
     margin: 5px;
