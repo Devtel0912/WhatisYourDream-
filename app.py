@@ -26,11 +26,13 @@ class DreamAPI:
         
         Q5 = bool("Do You truly believe in your chose carrer?")
         
-        prediction = f"Your Chosen carrer is to be {Q1}."
-        f"The best school to graduate from is {Q2} and earn your degree \n"
-        f"Your Salary will be {Q3}.\n"
-        f"Because you have chosen {Q5}\n"
-        "You have perfectly chosen your carrer and are set for life!"
+        prediction = (
+        f"Your chosen career is to be {Q1}.\n"
+        f"The best school to graduate from is {Q2}.\n"
+        f"Your expected salary will be {Q3}.\n"
+        f"Because you have chosen {Q5}.\n"
+        "You have perfectly chosen your career and are set for life!"
+)
         print("\n--- Dream Quiz Summary ---")
         
         
