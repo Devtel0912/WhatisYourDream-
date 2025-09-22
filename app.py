@@ -2,7 +2,6 @@ import webview
 
 
 class DreamAPI:
-    @staticmethod
     def start(self,answers):
         Q1, Q2, Q3, Q4, Q5 = answers
         Q4_response = "Perfect" if Q4.strip().lower() == "yes" else "That's OK"
