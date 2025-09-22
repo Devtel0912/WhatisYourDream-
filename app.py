@@ -37,7 +37,7 @@ class DreamAPI:
         
         return prediction
     
-if __name__ == "_main_":
+if __name__ == "__main__":
     api = DreamAPI()
     window = webview.create_window("Dream Quiz App", "index.html", js_api=api)
     webview.start()
