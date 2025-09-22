@@ -1,17 +1,21 @@
-async function submitQuiz() {
-    const Q1 = document.getElementById("Q1").value.trim();
-    const Q2 = document.getElementById("Q2").value.trim();
-    const Q3 = document.getElementById("Q3").value.trim();
-    let Q4 = document.getElementById("Q4").value.trim().toLowerCase();
-    const Q5 = document.getElementById("Q5").value.trim();
+function startQuiz() {
+    document.getElementById("menu").style.display = "none"; // hide menu
+    document.getElementById("quiz").style.display = "block"; // show quiz
+}
 
-    // Ensure Q4 is yes or no
-    if (Q4 !== "yes" && Q4 !== "no") {
+async function submitQuiz() {
+    const q1 = document.getElementById("q1").value.trim();
+    const q2 = document.getElementById("q2").value.trim();
+    const q3 = document.getElementById("q3").value.trim();
+    let q4 = document.getElementById("q4").value.trim().toLowerCase();
+    const q5 = document.getElementById("q5").value.trim();
+
+    if (q4 !== "yes" && q4 !== "no") {
         alert("Please answer Q4 with 'yes' or 'no'.");
         return;
     }
 
-    const answers = [Q1, Q2, Q3, Q4, Q5];
+    const answers = [q1, q2, q3, q4, q5];
 
     // Call Python backend
     const result = await window.pywebview.api.start(answers);
