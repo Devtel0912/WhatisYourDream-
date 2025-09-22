@@ -1,0 +1,45 @@
+body, html {
+    background-image: url("https://i.pinimg.com/originals/1b/46/9e/1b469e6f122de16ac9b471d8fff1a933.gif");
+    height: 100%;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+    background-size: cover;
+}
+
+
+h1{
+    color:purple;
+    text-align: center; 
+}
+
+.container{
+    text-align: center;
+    padding: 10px 20px;
+    margin: 5px;
+    background:rgb(16, 16, 77);
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border:none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: rgba(255,255,255,1);
+    transform: scale(1.05);
+}
+
+
+pre {
+    background: rgba(255,255,255,0.2);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    white-space: pre-wrap;
+}
